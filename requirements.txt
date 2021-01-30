@@ -1,0 +1,4 @@
+discord~=1.0.1
+pycountry~=20.7.3
+requests~=2.25.1
+countryinfo~=0.1.2
