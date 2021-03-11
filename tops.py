@@ -44,7 +44,7 @@ class tops(commands.Cog):
             valid = False
 
         if valid:
-            data = json.loads(requests.get('https://www.earth2stats.xyz/bot/toptiles/' + urlend).text)
+            data = json.loads(requests.get('https://www.earth2stats.xyz/bot/toptiles/' + urlend).text)[0]
             print(data)
 
             leftcol = ''
@@ -78,7 +78,7 @@ class tops(commands.Cog):
             valid = False
 
         if valid:
-            data = json.loads(requests.get('https://www.earth2stats.xyz/bot/toptiles/' + urlend).text)
+            data = json.loads(requests.get('https://www.earth2stats.xyz/bot/toptiles/' + urlend).text)[0]
             print(data)
 
             leftcol = ''
